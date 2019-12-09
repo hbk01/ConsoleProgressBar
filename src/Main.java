@@ -1,8 +1,7 @@
-package cn.hbkcn.bar;
 
 public class Main{
 	public static void main(String[] args){
-		int max = 128;
+		int max = 100;
 		// 显示type 0的效果
 		if (show(max, 0)) {
 			System.out.println();
@@ -34,4 +33,5 @@ public class Main{
 		    e.printStackTrace();
 		}
 	}
+    
 }

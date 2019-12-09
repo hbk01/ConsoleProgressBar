@@ -1,5 +1,3 @@
-package cn.hbkcn.bar;
-
 import java.math.*;
 
 /**
@@ -48,6 +46,7 @@ public class ConsoleProgressBar{
 		
 		// 回到行首
 		System.out.print('\r');
+
 		/* 另一种方式
 		for(int i = 0; i <= text.length(); i++){
 			print("\b");
